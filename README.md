@@ -6,6 +6,8 @@ Command to run rabbitmq broker as docker container with management plugin enable
 docker run -d --name book-rabbitmq -p 5672:5672 -p 15672:15672  rabbitmq:3-management
 ```
 
+Access rabbitmq management console at http://localhost:15672/
+
 Command to Get list of books
 
 ```
